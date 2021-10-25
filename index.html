@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="table">
+        <div>
+            <h1>Users</h1>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+    
+                <tbody id="table-body">
+    
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <button id="create-button">Create</button>
+        </div>
+    </div>
+
+    
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Create New Row</div>
+            <button id="close-button" class="close-button">&times;</button>
+        </div>
+
+        <div class="modal-body">
+            <form action="">
+                <input id="name" type="text" placeholder="Name">
+                <input id="username" type="text" placeholder="Username">
+                <input id="email" type="text" placeholder="Email">
+                <button id="submit" >Submit!</button>
+            </form>
+        </div>
+    </div>
+    <div id="overlay">
+
+    </div>
+
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
